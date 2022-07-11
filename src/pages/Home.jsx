@@ -1,9 +1,10 @@
 import React from 'react'
 import Button from '~/components/button/Button'
+import HeroSlide from '~/components/hero-slice/HeroSlide'
 
 const Home = () => {
     return (
-        <div style={{ marginTop: "200px" }}> <Button >Hello</Button></div>
+        <div > <HeroSlide /></div>
     )
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
+import Button from '~/components/button/Button'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div style={{ marginTop: "200px" }}> <Button >Hello</Button></div>
     )
 }
 
